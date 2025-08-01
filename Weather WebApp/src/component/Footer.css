@@ -1,0 +1,35 @@
+/* Footer container */
+.footer {
+    margin-top: 110px;
+    background-color: #1e293b; /* Dark navy blue */
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 14px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer text */
+  .footer-text {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  /* Footer links container */
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  /* Footer links */
+  .footer-link {
+    color: #facc15; /* Amber yellow */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: white;
+  }
+  

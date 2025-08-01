@@ -1,0 +1,104 @@
+Container styling
+.to-do-list {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Heading styling */
+.to-do-list h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input field styling */
+.to-do-list input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Add Task button styling */
+.add-button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+/* List styling */
+.to-do-list ol {
+  margin: 20px 0;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.to-do-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+
+.to-do-list li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Text styling */
+.text {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #555;
+  margin-right: 10px;
+}
+
+/* Task buttons styling */
+.delete-task,
+.move-up-task,
+.move-down-task {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-task:hover {
+  background-color: #d32f2f;
+}
+
+.move-up-task,
+.move-down-task {
+  background-color: #2196f3;
+}
+
+.move-up-task:hover,
+.move-down-task:hover {
+  background-color: #1976d2;
+}
